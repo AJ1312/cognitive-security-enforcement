@@ -1,0 +1,74 @@
+{
+  "simulation": {
+    "total_events": 5000,
+    "sessions": 50,
+    "normal_cli_mean": 0.5913498431504053,
+    "normal_cli_std": 0.39700179060663016,
+    "stressed_cli_mean": 0.6205986402794971,
+    "stressed_cli_std": 0.39868298210069125,
+    "normal_css_mean": 0.6869010114148526,
+    "stressed_css_mean": 0.6930543097781163,
+    "normal_cvs_mean": 0.36621256070682395,
+    "stressed_cvs_mean": 0.3751313091907634,
+    "min_trust_normal": 1.860113704495687e-35,
+    "min_trust_stressed": 9.286666278889805e-35
+  },
+  "attacks": [
+    {
+      "scenario": "Business Email Compromise (BEC)",
+      "description": "CEO impersonation -> urgent executive wire transfer request",
+      "peak_cvs": 0.6017855228687624,
+      "min_trust": 0.00020080898495084118,
+      "critical_events_detected": 1,
+      "detection_rate_pct": 1.6666666666666667,
+      "minimum_permission": "suspended"
+    },
+    {
+      "scenario": "OTP/Payment Fraud (Vishing)",
+      "description": "Urgent phone caller -> OTP dictation under duress",
+      "peak_cvs": 0.5785058116569396,
+      "min_trust": 0.00014907149309742335,
+      "critical_events_detected": 0,
+      "detection_rate_pct": 0.0,
+      "minimum_permission": "suspended"
+    },
+    {
+      "scenario": "Deepfake Social Engineering",
+      "description": "Synthetic video executive impersonation -> credential hand-off",
+      "peak_cvs": 0.5890439340620353,
+      "min_trust": 0.0002347088461874135,
+      "critical_events_detected": 0,
+      "detection_rate_pct": 0.0,
+      "minimum_permission": "suspended"
+    },
+    {
+      "scenario": "Insider Coercion",
+      "description": "Legitimate authorized user coerced into bulk data exfiltration",
+      "peak_cvs": 0.5642548246221514,
+      "min_trust": 0.00021297175018031363,
+      "critical_events_detected": 0,
+      "detection_rate_pct": 0.0,
+      "minimum_permission": "suspended"
+    }
+  ],
+  "experiment_validation": {
+    "n_participants": 30,
+    "n_trials": 900,
+    "cli_normal_mean": 0.2544749811106218,
+    "cli_normal_std": 0.09919606217717546,
+    "cli_loaded_mean": 0.721551934547198,
+    "cli_loaded_std": 0.10577711931098716,
+    "t_stat_cli": -65.36104033258476,
+    "p_val_cli": 4.8561257614011135e-33,
+    "cohens_d_cli": 4.55509732444546,
+    "pearson_r_cvs_tlx": 0.8320002583246366,
+    "p_val_tlx": 5.271984464383584e-232,
+    "roc_auc": 0.9965055555555555,
+    "optimal_threshold": 0.39164118849203905,
+    "optimal_sensitivity": 0.9616666666666667,
+    "optimal_specificity": 0.99,
+    "attack_rate_no_sys": 0.68,
+    "attack_rate_with_sys": 0.14666666666666667,
+    "attack_reduction_pct": 78.43137254901961
+  }
+}

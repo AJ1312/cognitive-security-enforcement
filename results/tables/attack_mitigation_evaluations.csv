@@ -1,0 +1,5 @@
+scenario,description,peak_cvs,min_trust,critical_events_detected,detection_rate_pct,minimum_permission
+Business Email Compromise (BEC),CEO impersonation -> urgent executive wire transfer request,0.6017855228687624,0.00020080898495084118,1,1.6666666666666667,suspended
+OTP/Payment Fraud (Vishing),Urgent phone caller -> OTP dictation under duress,0.5785058116569396,0.00014907149309742335,0,0.0,suspended
+Deepfake Social Engineering,Synthetic video executive impersonation -> credential hand-off,0.5890439340620353,0.0002347088461874135,0,0.0,suspended
+Insider Coercion,Legitimate authorized user coerced into bulk data exfiltration,0.5642548246221514,0.00021297175018031363,0,0.0,suspended

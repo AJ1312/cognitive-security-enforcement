@@ -1,0 +1,5 @@
+Domain,Critical Actions,Avg Sensitivity,Top Friction,Key Regulation,Primary Attack
+Banking & Financial Services,8,0.80625,ForcedDelay,PSD2/SCA,APP Fraud
+Enterprise IT / IAM,8,0.8375,StepDecomposition,GDPR,MFA Fatigue
+Cloud Consoles (AWS/Azure/GCP),8,0.85625,StepDecomposition,SOC2,Credential Compromise
+SOC Tools (SIEM/SOAR),8,0.8375,ForcedDelay,SOC2,Alert Fatigue Exploitation

@@ -1,0 +1,19 @@
+Regulation,Requirement,Status
+GDPR (EU),Data Minimization,PASS: Only statistical features stored
+GDPR (EU),Purpose Limitation,PASS: Security enforcement only
+GDPR (EU),Storage Limitation,PASS: TTL-based auto-deletion (60s)
+GDPR (EU),Right to Erasure,PASS: Immediate session-end purge
+GDPR (EU),Special Categories,PASS: Zero health/biometric data
+CCPA (California),No Sale of Data,PASS: Data never leaves local runtime
+CCPA (California),No Profiling,PASS: No persistent profiles created
+CCPA (California),Right to Delete,PASS: Automatic volatile expiration
+CCPA (California),Disclosure,PASS: User notified of adaptive security controls
+HIPAA (US Healthcare),No PHI Collection,PASS: No health information processed
+HIPAA (US Healthcare),Non-Diagnostic,PASS: No mental health inference
+HIPAA (US Healthcare),Minimum Necessary,PASS: Only security-relevant signals
+BIPA (Illinois),No Biometrics,PASS: No face/voice/fingerprint collection
+BIPA (Illinois),No Keystroke Content,"PASS: Timing rhythm only, zero content"
+BIPA (Illinois),Consent,PASS: Policy-level system security consent
+ADA / Disability Law,No Discrimination,"PASS: Protective, not punitive"
+ADA / Disability Law,Equal Access,PASS: Secondary authentication overrides
+ADA / Disability Law,No Ability Assessment,PASS: Situational duress only
